@@ -1,0 +1,169 @@
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  --black: #0e0e0e;
+  --pad-text-grey: #ababab;
+  --footer-buttons-grey: #969696;
+  --service-gradient-blue: linear-gradient(
+    95.47deg,
+    rgba(29, 93, 146, 1) 0%,
+    rgba(32, 62, 125, 1) 100%
+  );
+  --tupa-synij: #1d5d92;
+  --service-gradient-pink: linear-gradient(
+    95.47deg,
+    rgba(180, 67, 178, 1) 0%,
+    rgba(111, 43, 163, 1) 100%
+  );
+
+  /* Fonts */
+  --desktop-logo-text-font-family: Poppins-Bold, sans-serif;
+  --desktop-logo-text-font-size: 28px;
+  --desktop-logo-text-line-height: normal;
+  --desktop-logo-text-font-weight: 700;
+  --desktop-logo-text-font-style: normal;
+  --desktop-head-font-family: Poppins-Bold, sans-serif;
+  --desktop-head-font-size: 56px;
+  --desktop-head-line-height: normal;
+  --desktop-head-font-weight: 700;
+  --desktop-head-font-style: normal;
+  --desktop-body-font-family: DmSans-Regular, sans-serif;
+  --desktop-body-font-size: 28px;
+  --desktop-body-line-height: normal;
+  --desktop-body-font-weight: 400;
+  --desktop-body-font-style: normal;
+  --desktop-subhead-font-family: Poppins-SemiBold, sans-serif;
+  --desktop-subhead-font-size: 50px;
+  --desktop-subhead-line-height: normal;
+  --desktop-subhead-font-weight: 600;
+  --desktop-subhead-font-style: normal;
+  --desktop-work-types-font-family: DmSans-Medium, sans-serif;
+  --desktop-work-types-font-size: 36px;
+  --desktop-work-types-line-height: normal;
+  --desktop-work-types-font-weight: 500;
+  --desktop-work-types-font-style: normal;
+  --desktop-padtext-font-family: DmSans-Medium, sans-serif;
+  --desktop-padtext-font-size: 24px;
+  --desktop-padtext-line-height: normal;
+  --desktop-padtext-font-weight: 500;
+  --desktop-padtext-font-style: normal;
+  --desktop-footer-font-family: DmSans-Regular, sans-serif;
+  --desktop-footer-font-size: 16px;
+  --desktop-footer-line-height: normal;
+  --desktop-footer-font-weight: 400;
+  --desktop-footer-font-style: normal;
+  --desktop-1920-services-head-font-family: Poppins-SemiBold, sans-serif;
+  --desktop-1920-services-head-font-size: 40px;
+  --desktop-1920-services-head-line-height: normal;
+  --desktop-1920-services-head-font-weight: 600;
+  --desktop-1920-services-head-font-style: normal;
+  --desktop-1920-services-body-font-family: DmSans-Regular, sans-serif;
+  --desktop-1920-services-body-font-size: 24px;
+  --desktop-1920-services-body-line-height: normal;
+  --desktop-1920-services-body-font-weight: 400;
+  --desktop-1920-services-body-font-style: normal;
+  --desktop-1440-services-head-font-family: Poppins-SemiBold, sans-serif;
+  --desktop-1440-services-head-font-size: 36px;
+  --desktop-1440-services-head-line-height: normal;
+  --desktop-1440-services-head-font-weight: 600;
+  --desktop-1440-services-head-font-style: normal;
+  --desktop-1440-services-body-font-family: DmSans-Regular, sans-serif;
+  --desktop-1440-services-body-font-size: 20px;
+  --desktop-1440-services-body-line-height: normal;
+  --desktop-1440-services-body-font-weight: 400;
+  --desktop-1440-services-body-font-style: normal;
+  --tablet-logo-text-font-family: Poppins-Bold, sans-serif;
+  --tablet-logo-text-font-size: 24px;
+  --tablet-logo-text-line-height: normal;
+  --tablet-logo-text-font-weight: 700;
+  --tablet-logo-text-font-style: normal;
+  --tablet-head-font-family: Poppins-Bold, sans-serif;
+  --tablet-head-font-size: 44px;
+  --tablet-head-line-height: normal;
+  --tablet-head-font-weight: 700;
+  --tablet-head-font-style: normal;
+  --tablet-body-font-family: DmSans-Regular, sans-serif;
+  --tablet-body-font-size: 20px;
+  --tablet-body-line-height: normal;
+  --tablet-body-font-weight: 400;
+  --tablet-body-font-style: normal;
+  --tablet-subhead-font-family: Poppins-SemiBold, sans-serif;
+  --tablet-subhead-font-size: 36px;
+  --tablet-subhead-line-height: normal;
+  --tablet-subhead-font-weight: 600;
+  --tablet-subhead-font-style: normal;
+  --tablet-work-types-font-family: DmSans-Medium, sans-serif;
+  --tablet-work-types-font-size: 26px;
+  --tablet-work-types-line-height: normal;
+  --tablet-work-types-font-weight: 500;
+  --tablet-work-types-font-style: normal;
+  --tablet-padtext-font-family: DmSans-Medium, sans-serif;
+  --tablet-padtext-font-size: 16px;
+  --tablet-padtext-line-height: normal;
+  --tablet-padtext-font-weight: 500;
+  --tablet-padtext-font-style: normal;
+  --tablet-footer-font-family: DmSans-Regular, sans-serif;
+  --tablet-footer-font-size: 16px;
+  --tablet-footer-line-height: normal;
+  --tablet-footer-font-weight: 400;
+  --tablet-footer-font-style: normal;
+  --tablet-services-head-font-family: Poppins-SemiBold, sans-serif;
+  --tablet-services-head-font-size: 28px;
+  --tablet-services-head-line-height: normal;
+  --tablet-services-head-font-weight: 600;
+  --tablet-services-head-font-style: normal;
+  --tablet-services-body-font-family: DmSans-Regular, sans-serif;
+  --tablet-services-body-font-size: 16px;
+  --tablet-services-body-line-height: normal;
+  --tablet-services-body-font-weight: 400;
+  --tablet-services-body-font-style: normal;
+  --phone-logo-text-font-family: Poppins-Bold, sans-serif;
+  --phone-logo-text-font-size: 20px;
+  --phone-logo-text-line-height: normal;
+  --phone-logo-text-font-weight: 700;
+  --phone-logo-text-font-style: normal;
+  --phone-head-font-family: Poppins-Bold, sans-serif;
+  --phone-head-font-size: 24px;
+  --phone-head-line-height: normal;
+  --phone-head-font-weight: 700;
+  --phone-head-font-style: normal;
+  --phone-body-font-family: DmSans-Regular, sans-serif;
+  --phone-body-font-size: 12px;
+  --phone-body-line-height: normal;
+  --phone-body-font-weight: 400;
+  --phone-body-font-style: normal;
+  --phone-subhead-font-family: Poppins-SemiBold, sans-serif;
+  --phone-subhead-font-size: 18px;
+  --phone-subhead-line-height: normal;
+  --phone-subhead-font-weight: 600;
+  --phone-subhead-font-style: normal;
+  --phone-work-types-font-family: DmSans-Medium, sans-serif;
+  --phone-work-types-font-size: 14px;
+  --phone-work-types-line-height: normal;
+  --phone-work-types-font-weight: 500;
+  --phone-work-types-font-style: normal;
+  --phone-padtext-font-family: DmSans-Medium, sans-serif;
+  --phone-padtext-font-size: 10px;
+  --phone-padtext-line-height: normal;
+  --phone-padtext-font-weight: 500;
+  --phone-padtext-font-style: normal;
+  --phone-footer-font-family: DmSans-Regular, sans-serif;
+  --phone-footer-font-size: 10px;
+  --phone-footer-line-height: normal;
+  --phone-footer-font-weight: 400;
+  --phone-footer-font-style: normal;
+  --phone-services-head-font-family: Poppins-SemiBold, sans-serif;
+  --phone-services-head-font-size: 14px;
+  --phone-services-head-line-height: normal;
+  --phone-services-head-font-weight: 600;
+  --phone-services-head-font-style: normal;
+  --phone-services-body-font-family: DmSans-Regular, sans-serif;
+  --phone-services-body-font-size: 10px;
+  --phone-services-body-line-height: normal;
+  --phone-services-body-font-weight: 400;
+  --phone-services-body-font-style: normal;
+
+  /* Effects */
+  --pad-object-shadow-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.25);
+  --header-shadow-box-shadow: 0px 0px 5px 0px rgba(14, 14, 14, 0.25);
+}
